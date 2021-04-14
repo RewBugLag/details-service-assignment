@@ -1,7 +1,7 @@
 services:
-  detailss:
+  details:
     build: .
-    image: detail-service:dev
+    image: ghcr.io/rewbuglag/bookinfo-details:dev
     ports:
       - "9080:8080"
     environment:
