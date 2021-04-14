@@ -3,6 +3,6 @@ services:
     build: .
     image: detail-service:dev
     ports:
-      - "8080:8080"
+      - "9080:8080"
     environment:
-      SERVICE_VERSION: v1
+      SERVICE_VERSION: v2
